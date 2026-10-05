@@ -1,0 +1,71 @@
+ADULT INCOME — EDA REPORT
+=======================
+
+rows after cleaning: 30162
+income distribution:
+income
+<=50K    0.751
+>50K     0.249
+Name: proportion, dtype: float64
+
+high-income rate by education:
+education
+Preschool       0.000
+1st-4th         0.040
+5th-6th         0.042
+9th             0.055
+11th            0.056
+7th-8th         0.063
+10th            0.072
+12th            0.077
+HS-grad         0.164
+Some-college    0.200
+Assoc-acdm      0.254
+Assoc-voc       0.263
+Bachelors       0.421
+Masters         0.564
+Doctorate       0.747
+Prof-school     0.749
+Name: high_income, dtype: float64
+
+high-income rate by sex:
+sex
+Female    0.114
+Male      0.314
+Name: high_income, dtype: float64
+
+mean hours-per-week: <=50K=39.3, >50K=45.7
+
+high-income rate by engineered education_group:
+education_group
+dropout        0.060
+high-school    0.164
+college        0.215
+bachelors      0.421
+postgrad       0.631
+Name: high_income, dtype: float64
+
+high-income rate by age_bin:
+age_bin
+young     0.020
+adult     0.239
+middle    0.383
+senior    0.250
+Name: high_income, dtype: float64
+
+high-income rate by hours_bin:
+hours_bin
+part-time    0.066
+full-time    0.229
+overtime     0.422
+Name: high_income, dtype: float64
+
+capital_net: mean=1003.6, median=0.0, corr with high_income=0.212
+
+KEY FINDINGS
+- Income is imbalanced (~76% <=50K).
+- Higher education strongly raises the >50K rate (Doctorate/Prof-school highest).
+- Males have a much higher >50K rate than females in this 1994 census sample.
+- >50K earners work more hours on average; overtime bin has the highest rate.
+- capital_net (gain-loss) correlates positively with high income.
+- Engineered features: capital_net, age_bin, hours_bin, education_group.
