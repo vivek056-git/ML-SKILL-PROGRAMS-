@@ -1,0 +1,9 @@
+Metric,Value
+Rows,20640
+Columns,9
+Features,8
+Target,MedHouseVal
+Train rows,16512
+Test rows,4128
+Missing cells,0
+Duplicate rows,0

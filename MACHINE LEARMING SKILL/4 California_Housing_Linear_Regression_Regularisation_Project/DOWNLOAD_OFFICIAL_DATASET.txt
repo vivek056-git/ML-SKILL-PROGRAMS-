@@ -1,0 +1,18 @@
+OFFICIAL DATASET OPTION
+
+The standard California Housing dataset can be loaded with:
+
+from sklearn.datasets import fetch_california_housing
+housing = fetch_california_housing(as_frame=True)
+df = housing.frame
+
+If the environment has no cached copy, scikit-learn may download it automatically.
+
+Official documentation:
+https://scikit-learn.org/stable/datasets/real_world.html
+
+StatLib source:
+http://lib.stat.cmu.edu/datasets/houses.zip
+
+Kaggle California Housing regression:
+https://www.kaggle.com/competitions/playground-series-s3e1/data

@@ -1,0 +1,57 @@
+Model,Feature,Coefficient
+Linear Regression,MedInc,1.0377538217735385
+Linear Regression,HouseAge,0.20708110918718534
+Linear Regression,AveRooms,0.10221979095300315
+Linear Regression,AveBedrms,-0.035676654985275606
+Linear Regression,Population,-0.0006734712380118585
+Linear Regression,AveOccup,-0.033151812108836845
+Linear Regression,Latitude,-0.056572066489334424
+Linear Regression,Longitude,-0.14266869822542594
+Ridge,MedInc,1.037690807270294
+Ridge,HouseAge,0.20706883394896555
+Ridge,AveRooms,0.10207416533610705
+Ridge,AveBedrms,-0.035533324855668666
+Ridge,Population,-0.0006733566338867713
+Ridge,AveOccup,-0.033150121669867486
+Ridge,Latitude,-0.05656891054058279
+Ridge,Longitude,-0.1426597188460491
+Lasso,MedInc,1.0367175483141118
+Lasso,HouseAge,0.20610218679512626
+Lasso,AveRooms,0.06737478551780667
+Lasso,AveBedrms,-0.0008947275956742151
+Lasso,Population,-0.0
+Lasso,AveOccup,-0.032047557675227115
+Lasso,Latitude,-0.05561888818475914
+Lasso,Longitude,-0.14167248803460084
+ElasticNet,MedInc,1.0367152531533992
+ElasticNet,HouseAge,0.20649127217344548
+ElasticNet,AveRooms,0.08389723666954439
+ElasticNet,AveBedrms,-0.017406157915818697
+ElasticNet,Population,-0.0002211222379107046
+ElasticNet,AveOccup,-0.03258790112548493
+ElasticNet,Latitude,-0.05606968160166055
+ElasticNet,Longitude,-0.14209753142366818
+Tuned Ridge,MedInc,1.0371240504884471
+Tuned Ridge,HouseAge,0.2069584234801198
+Tuned Ridge,AveRooms,0.10079005441269434
+Tuned Ridge,AveBedrms,-0.03426986595016427
+Tuned Ridge,Population,-0.0006722646424317663
+Tuned Ridge,AveOccup,-0.03313500777917488
+Tuned Ridge,Latitude,-0.05654048028640801
+Tuned Ridge,Longitude,-0.14257895747032256
+Tuned Lasso,MedInc,1.037649983756577
+Tuned Lasso,HouseAge,0.2069833496767671
+Tuned Lasso,AveRooms,0.09872931088853391
+Tuned Lasso,AveBedrms,-0.03219291838497116
+Tuned Lasso,Population,-0.0005833035473166088
+Tuned Lasso,AveOccup,-0.033041526300322616
+Tuned Lasso,Latitude,-0.05647685760786588
+Tuned Lasso,Longitude,-0.142569228997999
+Tuned ElasticNet,MedInc,1.037425202871528
+Tuned ElasticNet,HouseAge,0.20689451919349544
+Tuned ElasticNet,AveRooms,0.09635392051150471
+Tuned ElasticNet,AveBedrms,-0.029827373249736503
+Tuned ElasticNet,Population,-0.0005305478353438851
+Tuned ElasticNet,AveOccup,-0.03297316918354256
+Tuned ElasticNet,Latitude,-0.056413259729914365
+Tuned ElasticNet,Longitude,-0.1424880107647757

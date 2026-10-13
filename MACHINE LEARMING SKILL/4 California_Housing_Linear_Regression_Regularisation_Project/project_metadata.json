@@ -1,0 +1,36 @@
+{
+  "project": "California Housing \u2014 Linear Regression and Regularisation",
+  "included_dataset_type": "20,640-row reproducible practice dataset using official California Housing schema",
+  "official_dataset_rows": 20640,
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "target": "MedHouseVal",
+  "test_size": 0.2,
+  "random_state": 42,
+  "models": [
+    "Linear Regression",
+    "Ridge",
+    "Lasso",
+    "ElasticNet"
+  ],
+  "metrics": [
+    "MAE",
+    "MSE",
+    "RMSE",
+    "R2"
+  ],
+  "tuning": "5-fold GridSearchCV for Ridge and Lasso alpha",
+  "sources": [
+    "https://scikit-learn.org/stable/datasets/real_world.html",
+    "http://lib.stat.cmu.edu/datasets/houses.zip",
+    "https://www.kaggle.com/competitions/playground-series-s3e1/data"
+  ]
+}
