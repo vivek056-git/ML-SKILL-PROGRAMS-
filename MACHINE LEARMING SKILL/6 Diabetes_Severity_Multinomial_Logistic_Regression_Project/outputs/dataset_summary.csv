@@ -1,0 +1,8 @@
+Metric,Value
+Rows,2000
+Columns,12
+Features,11
+Train_Rows,1600
+Test_Rows,400
+Missing_Cells,200
+Duplicate_Rows,0

@@ -1,0 +1,13 @@
+{
+  "project": "Diabetes Severity \u2014 Multinomial Logistic Regression",
+  "dataset_type": "Synthetic educational practice dataset",
+  "rows": 2000,
+  "target": "Severity",
+  "classes": {
+    "0": "Low",
+    "1": "Moderate",
+    "2": "High"
+  },
+  "model": "Multinomial Logistic Regression",
+  "random_state": 42
+}
