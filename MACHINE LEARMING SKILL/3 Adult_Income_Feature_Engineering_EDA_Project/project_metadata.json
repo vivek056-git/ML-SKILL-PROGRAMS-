@@ -1,0 +1,16 @@
+{
+  "project": "Adult Income \u2014 Feature Engineering and EDA",
+  "included_dataset": "5,000-row practice dataset using the official Adult 15-column schema",
+  "official_kaggle": "https://www.kaggle.com/datasets/uciml/adult-census-income",
+  "rows": 5000,
+  "columns": 15,
+  "engineered_features": [
+    "has_capital_gain",
+    "has_capital_loss",
+    "net_capital",
+    "age_hours",
+    "capital_gain_log1p",
+    "capital_loss_log1p",
+    "age_group"
+  ]
+}

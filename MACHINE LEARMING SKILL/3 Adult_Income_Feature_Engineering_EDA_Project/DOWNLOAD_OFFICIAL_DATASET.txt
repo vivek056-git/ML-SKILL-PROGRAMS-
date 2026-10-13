@@ -1,0 +1,9 @@
+OFFICIAL DATASET
+Download adult.csv from:
+https://www.kaggle.com/datasets/uciml/adult-census-income
+
+Then replace:
+dataset/adult_income.csv
+
+Kaggle CLI:
+kaggle datasets download -d uciml/adult-census-income -p dataset

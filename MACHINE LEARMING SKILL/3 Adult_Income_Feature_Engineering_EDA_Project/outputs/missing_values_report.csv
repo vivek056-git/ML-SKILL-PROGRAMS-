@@ -1,0 +1,16 @@
+column,missing_marker_count,missing_after_conversion,dtype
+age,0,0,int64
+workclass,175,175,object
+fnlwgt,0,0,int64
+education,0,0,object
+education.num,0,0,int64
+marital.status,0,0,object
+occupation,175,175,object
+relationship,0,0,object
+race,0,0,object
+sex,0,0,object
+capital.gain,0,0,int64
+capital.loss,0,0,int64
+hours.per.week,0,0,int64
+native.country,60,60,object
+income,0,0,object
