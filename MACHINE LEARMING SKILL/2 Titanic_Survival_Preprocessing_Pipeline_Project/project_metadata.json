@@ -1,0 +1,13 @@
+{
+  "project": "Titanic Survival \u2014 Preprocessing Pipeline and Cleaned Dataset",
+  "raw_shape": [
+    891,
+    12
+  ],
+  "raw_missing_cells": 866,
+  "cleaned_missing_cells": 687,
+  "train_rows": 712,
+  "test_rows": 179,
+  "processed_feature_count": 18,
+  "kaggle_reference": "https://www.kaggle.com/competitions/titanic"
+}
