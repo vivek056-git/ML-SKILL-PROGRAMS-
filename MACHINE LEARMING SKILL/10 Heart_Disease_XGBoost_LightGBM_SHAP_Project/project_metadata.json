@@ -1,0 +1,16 @@
+{
+  "project": "Heart Disease \u2014 XGBoost, LightGBM & SHAP",
+  "dataset_type": "Reproducible educational practice dataset",
+  "rows": 920,
+  "target": "target",
+  "models": [
+    "XGBoost",
+    "LightGBM"
+  ],
+  "interpretability": [
+    "SHAP",
+    "Permutation Importance"
+  ],
+  "random_state": 42,
+  "test_size": 0.2
+}
