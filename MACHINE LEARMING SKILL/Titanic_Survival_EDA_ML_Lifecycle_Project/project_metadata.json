@@ -1,0 +1,26 @@
+{
+  "project": "Titanic Survival \u2014 EDA and ML Lifecycle Mapping",
+  "dataset_rows": 891,
+  "dataset_columns": 12,
+  "dataset_file": "dataset/titanic_train.csv",
+  "kaggle_reference": "https://www.kaggle.com/competitions/titanic",
+  "csv_outputs": [
+    "correlation_matrix.csv",
+    "dataset_summary.csv",
+    "duplicate_summary.csv",
+    "missing_summary.csv",
+    "ml_lifecycle_mapping.csv",
+    "survival_by_age_group.csv",
+    "survival_by_pclass.csv",
+    "survival_by_sex.csv",
+    "target_distribution.csv"
+  ],
+  "figures": [
+    "01_missingness_heatmap.png",
+    "02_survival_by_sex.png",
+    "03_survival_by_pclass.png",
+    "04_survival_by_age_group.png",
+    "05_correlation_heatmap.png",
+    "06_target_distribution.png"
+  ]
+}

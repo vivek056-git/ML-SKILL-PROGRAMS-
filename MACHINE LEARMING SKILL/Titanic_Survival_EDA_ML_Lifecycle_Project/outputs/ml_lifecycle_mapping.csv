@@ -1,0 +1,13 @@
+phase,lifecycle_stage,activity,expected_output
+1,Problem Definition,Study passenger survival patterns and define the target.,Survived
+2,Data Acquisition,Obtain the Titanic passenger training dataset.,891 labeled records
+3,Data Understanding,"Inspect shape, columns, types, statistics, and target.",Data profile
+4,Data Quality,Check missing values and duplicate rows.,Missing/duplicate summary
+5,EDA,"Analyze survival by sex, class, age, and numeric relationships.",EDA tables and plots
+6,Preprocessing,"For predictive modeling, impute/encode using training-only transformations.",Leakage-safe pipeline
+7,Feature Engineering,"Potential features include FamilySize, IsAlone, Title, and FarePerPerson.",Derived features
+8,Modeling,Potential baseline: Logistic Regression; compare tree models if required.,Classification model
+9,Evaluation,"Accuracy, precision, recall, F1, ROC-AUC, confusion matrix.",Evaluation results
+10,Interpretation,Explain important relationships and model behavior.,Interpretation
+11,Deployment,Package preprocessing and model together.,Inference pipeline
+12,Monitoring,Monitor input quality and distribution/prediction drift.,Monitoring checks
