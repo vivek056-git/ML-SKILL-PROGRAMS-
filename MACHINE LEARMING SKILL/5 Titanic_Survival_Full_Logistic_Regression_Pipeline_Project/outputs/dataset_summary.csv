@@ -1,0 +1,10 @@
+Metric,Value
+Rows,891
+Columns,12
+Target,Survived
+Target_1_Count,342
+Target_0_Count,549
+Train_Rows,712
+Test_Rows,179
+Missing_Cells,866
+Duplicate_Rows,0

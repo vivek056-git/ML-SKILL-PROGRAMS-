@@ -1,0 +1,43 @@
+{
+  "project": "Titanic Survival \u2014 Full Logistic Regression Pipeline",
+  "dataset_source": "Kaggle Titanic training dataset",
+  "rows": 891,
+  "columns": 12,
+  "target": "Survived",
+  "features_used": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked",
+    "Title",
+    "FamilySize",
+    "IsAlone",
+    "FarePerPerson",
+    "HasCabin"
+  ],
+  "engineered_features": [
+    "Title",
+    "FamilySize",
+    "IsAlone",
+    "FarePerPerson",
+    "HasCabin"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "models": [
+    "Logistic Regression"
+  ],
+  "metrics": [
+    "Accuracy",
+    "Precision",
+    "Recall",
+    "F1",
+    "ROC_AUC",
+    "Log_Loss"
+  ],
+  "cross_validation": "5-fold StratifiedKFold",
+  "kaggle_source": "https://www.kaggle.com/c/titanic/data"
+}
