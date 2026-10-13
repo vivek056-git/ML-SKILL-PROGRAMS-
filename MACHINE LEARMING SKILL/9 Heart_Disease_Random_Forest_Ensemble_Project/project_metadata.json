@@ -1,0 +1,12 @@
+{
+  "project": "Heart Disease \u2014 Random Forest Ensemble",
+  "dataset_type": "Reproducible educational practice dataset",
+  "rows": 920,
+  "target": "target",
+  "model": "RandomForestClassifier",
+  "n_estimators": 300,
+  "max_depth": 8,
+  "min_samples_leaf": 3,
+  "random_state": 42,
+  "test_size": 0.2
+}
