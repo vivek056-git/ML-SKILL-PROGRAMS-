@@ -1,0 +1,9 @@
+{
+  "project": "Auto MPG \u2014 Linear Regression, Feature Scaling & Encoding",
+  "dataset_type": "Reproducible practice dataset",
+  "rows": 398,
+  "target": "mpg",
+  "model": "Linear Regression",
+  "random_state": 42,
+  "test_size": 0.2
+}

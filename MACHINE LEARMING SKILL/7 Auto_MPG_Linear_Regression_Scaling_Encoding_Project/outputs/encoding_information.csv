@@ -1,0 +1,3 @@
+Category_Feature,Encoding,Reason
+origin,"OneHotEncoder(drop='first', handle_unknown='ignore')",Categorical geographic origin
+make,"OneHotEncoder(drop='first', handle_unknown='ignore')",Categorical manufacturer
