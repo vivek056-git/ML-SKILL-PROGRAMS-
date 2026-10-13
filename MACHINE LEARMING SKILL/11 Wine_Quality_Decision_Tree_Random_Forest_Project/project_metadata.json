@@ -1,0 +1,13 @@
+{
+  "project": "Wine Quality \u2014 Decision Tree and Random Forest",
+  "dataset_type": "Reproducible educational practice dataset",
+  "rows": 1599,
+  "columns": 12,
+  "target": "quality",
+  "models": [
+    "Decision Tree",
+    "Random Forest"
+  ],
+  "random_state": 42,
+  "test_size": 0.2
+}
